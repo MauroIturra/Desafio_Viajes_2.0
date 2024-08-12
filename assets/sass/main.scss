@@ -1,9 +1,55 @@
 body{
     background-color: #212529;
 }
+.Img_Carrusel{
+    height: 500px;
+}
+@media (max-width: 770px){
+    .Img_Carrusel{
+        height: 300px;
+    }
+}
+.Titulo{
+    color: white;
+}
+hr{
+    color: white;
+}
 .Img_QSomos{
     width: 100%;
 }
 .Parrafo_QSomos{
+    color: white;
+}
+.Img_Card{
+    height: 100%;
+}
+.Parrafo_Testimonio{
+    color: white;
+}
+.Img_Testimonio{
+    border-radius: 100%;
+    border-color: white;
+    width: 4vw;
+    height: 4vw;
+}
+.Nombre_Testimonio{
+    color: white;
+}
+
+
+
+
+
+
+.Enlace{
+    text-decoration: none;
+    color: white;
+    
+}
+.Titulos_Secciones{
+    color: #5F6F65;
+}
+.Label_Form{
     color: white;
 }

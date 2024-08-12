@@ -32,28 +32,40 @@
     <!-- Carrusel -->
      <header>
         <div class="container">
-          <div id="carouselExampleIndicators" class="carousel slide ">
-            <div class="carousel-indicators ">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner rounded-bottom-5">
+            <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100 Img_Carrusel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100 Img_Carrusel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100 Img_Carrusel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -62,18 +74,182 @@
       </header>
       <!-- Quienes Somos -->
        <main>
+        <div class="container">
+          <h2 class="Titulo Titulo_Somos my-4 text-center">¿Quiénes somos?</h2>
+          <hr class="mb-5">
+        </div>
+        
           <div class="container">
             <div class="row">
-              <div class="col-6">
+              <div class="d-none d-md-block col-md-6 col-lg-6">
                 <img class="Img_QSomos rounded-5" src="assets/img/quienes-somos.jpg" alt="">
               </div>
-              <div class="col-6">
-                <p class="Parrafo_QSomos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae tempora commodi alias, ad necessitatibus ducimus. Delectus alias itaque corrupti consectetur cupiditate velit nostrum animi blanditiis est. Maiores consequatur obcaecati illum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos dicta suscipit ipsam omnis, repellat animi necessitatibus ab ut officiis libero recusandae distinctio dolorum. Incidunt hic a est suscipit consequuntur <vero class="br"></vero> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt qui quae maxime aspernatur praesentium minima vero necessitatibus animi possimus non mollitia laboriosam fugiat, sunt repellendus dicta eligendi facilis dolor vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, a illum laborum nesciunt perferendis temporibus. Accusantium ratione magnam, animi veniam earum deserunt asperiores? Voluptatem illum repellat facilis harum sapiente ab.</p>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <p class="Parrafo_QSomos"><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae tempora commodi alias, ad necessitatibus ducimus. Delectus alias itaque corrupti consectetur cupiditate velit nostrum animi blanditiis est. Maiores consequatur obcaecati illum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos dicta suscipit ipsam omnis, repellat animi necessitatibus ab ut officiis libero recusandae distinctio dolorum. Incidunt hic a est suscipit consequuntur <br><br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt qui quae maxime aspernatur praesentium minima vero necessitatibus animi possimus non mollitia laboriosam fugiat, sunt repellendus dicta eligendi facilis dolor vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, a illum laborum nesciunt perferendis temporibus. Accusantium ratione magnam, animi veniam earum deserunt asperiores? Voluptatem illum repellat facilis harum sapiente ab.</p>
               </div>
             </div>
           </div>
        </main>
+       <!-- Destacados -->
+      <section>
+        <div class="container">
+            <h3 class="Titulo Titulo_Destacado my-4 text-center">Destacados</h3>
+            <hr class="mb-5">
+          </div>
+
+                      <!-- COntenedor Card 1 -->
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="card mb-3" style="max-width: 620px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/img/card1.jpg" class="img-fluid rounded-start Img_Card" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Región de los lagos</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end">
+                <div class="card mb-3" style="max-width: 620px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/img/card2.jpg" class="img-fluid rounded-start Img_Card" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Desierto de Atacama</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <!-- COntenedor Card 2 -->
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="card mb-3" style="max-width: 620px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/img/card3.jpg" class="img-fluid rounded-start Img_Card" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Norte grande de Chile</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end">
+                <div class="card mb-3" style="max-width: 620px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/img/card4.jpg" class="img-fluid rounded-start Img_Card" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bosque mágico</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>          
+      </section>
+      <!-- Testimonios -->
+
+    <article>
+      <div class="container">
+        <h3 class="Titulo Titulo_Destacado my-4 text-center">Testimonios</h3>
+        <hr class="mb-5">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 text-center">
+            <p class="Parrafo_Testimonio mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla ipsa tenetur fugit minus vero culpa sit corrupti est vitae? Dolorum, labore saepe! Magnam perferendis distinctio adipisci assumenda iure sed!</p>
+            <img class="Img_Testimonio mt-3" src="assets/img/testimonio1.jpg" alt="">
+            <h4 class="Nombre_Testimonio my-3">Mariela</h4>
+          </div>
+          <div class="col-4 text-center">
+            <p class="Parrafo_Testimonio mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla ipsa tenetur fugit minus vero culpa sit corrupti est vitae? Dolorum, labore saepe! Magnam perferendis distinctio adipisci assumenda iure sed!</p>
+            <img class="Img_Testimonio mt-3" src="assets/img/testimonio2.jpg" alt="">
+            <h4 class="Nombre_Testimonio my-3">Christian</h4>
+          </div>
+          <div class="col-4 text-center">
+            <p class="Parrafo_Testimonio mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla ipsa tenetur fugit minus vero culpa sit corrupti est vitae? Dolorum, labore saepe! Magnam perferendis distinctio adipisci assumenda iure sed!</p>
+            <img class="Img_Testimonio mt-3" src="assets/img/testimonio3.jpg" alt="">
+            <h4 class="Nombre_Testimonio my-3">Fernanda</h4>
+          </div>
+        </div>
+      </div>
+
+    </article>
+    <!-- Footer -->
+     <footer>
+      <div class="container">
+        <h3 class="Titulo Titulo_Destacado my-4 text-center">Contacto</h3>
+        <hr class="mb-5">
+      </div>
+                <!-- Formulario -->
+                <div class="container">
+                  <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">                    
+                          <div class="row my-4">
+                              <div class="col">
+                              <label for="formGroupExampleInput" class="form-label Label_Form">Nombre</label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>
+                              <input type="text" class="form-control" placeholder="" aria-label="First name">
+                              </div>
+                              <div class="col">
+                                <label for="inputEmail4" class="form-label Label_Form">Email</label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>
+                              <input type="email" class="form-control" placeholder="" aria-label="Last name">
+                              </div>
+                          </div>                                          
+                          <div class="my-4">
+                              <label for="formGroupExampleInput" class="form-label Label_Form">Mensaje</label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>                        
+                              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="" rows="3"></textarea>
+                          </div>
+                          <button type="button" class="btn btn-primary Boton_Presentacion mb-5">Enviar</button>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column my-4">
+                          <div class="mb-3">
+                              <i class="fa-solid fa-phone" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://web.whatsapp.com/" target="_blank">+56999887766</a>
+                          </div>
+                          <div class="mb-3">
+                              <i class="fa-solid fa-envelope" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://www.gmail.com" target="_blank">tuemail.gmail.com</a>
+                          </div>
+                          <div class="mb-3">
+                              <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://www.linkedin.com" target="_blank">tulinkedin</a>
+                          </div>
+                          <div class="mb-3">
+                              <i class="fa-brands fa-github" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://www.github.com" target="_blank">Tu Github</a>
+                          </div>
+                          <div class="mb-3">
+                              <i class="fa-brands fa-instagram" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://www.instagram.com" target="_blank">Tu Instagram</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/82fa4732e2.js" crossorigin="anonymous"></script>
 </body>
 </html>
