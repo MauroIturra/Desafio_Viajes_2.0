@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -110,7 +113,12 @@
                       <div class="card-body">
                         <h5 class="card-title">Región de los lagos</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <div class="contenedor_precio d-flex justify-content-around ">
+                          <div class="d-flex align-items-center"><i class="fa-solid fa-plane-up"></i><p class="card-text ms-2"><small class="text-body-secondary">Vuelos desde:</small></p>
+                          </div>
+                          <div class="d-flex align-items-center"><p class="card-text"><small class="text-body-secondary">$159.990</small></p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -126,7 +134,12 @@
                       <div class="card-body">
                         <h5 class="card-title">Desierto de Atacama</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <div class="contenedor_precio d-flex justify-content-around ">
+                          <div class="d-flex align-items-center"><i class="fa-solid fa-plane-up"></i><p class="card-text ms-2"><small class="text-body-secondary">Vuelos desde:</small></p>
+                          </div>
+                          <div class="d-flex align-items-center"><p class="card-text"><small class="text-body-secondary">$189.990</small></p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -147,7 +160,12 @@
                       <div class="card-body">
                         <h5 class="card-title">Norte grande de Chile</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <div class="contenedor_precio d-flex justify-content-around ">
+                          <div class="d-flex align-items-center"><i class="fa-solid fa-plane-up"></i><p class="card-text ms-2"><small class="text-body-secondary">Vuelos desde:</small></p>
+                          </div>
+                          <div class="d-flex align-items-center"><p class="card-text"><small class="text-body-secondary">$289.990</small></p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -163,7 +181,13 @@
                       <div class="card-body">
                         <h5 class="card-title">Bosque mágico</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur pariatur fugit consequuntur. Eos eaque at sed corporis est cumque autem, voluptatibus blanditiis? Quisquam saepe amet quas inventore facilis dolor?</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <div class="contenedor_precio d-flex justify-content-around ">
+                          <div class="d-flex align-items-center"><i class="fa-solid fa-plane-up"></i><p class="card-text ms-2"><small class="text-body-secondary">Vuelos desde:</small></p>
+                          </div>
+                          <div class="d-flex align-items-center"><p class="card-text"><small class="text-body-secondary">$259.990</small></p>
+                          </div>
+                        </div>                        
+                      
                       </div>
                     </div>
                   </div>
@@ -213,21 +237,21 @@
                       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">                    
                           <div class="row my-4">
                               <div class="col">
-                              <label for="formGroupExampleInput" class="form-label Label_Form">Nombre</label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>
+                              <label for="formGroupExampleInput" class="form-label Label_Form" id="Label_Nombre">Nombre<span class="tooltiptext" id="tooltipText">Ingrese su nombre completo</span></label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>
                               <input type="text" class="form-control" placeholder="" aria-label="First name">
                               </div>
                               <div class="col">
-                                <label for="inputEmail4" class="form-label Label_Form">Email</label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>
+                                <label for="inputEmail4" class="form-label Label_Form" id="Label_Email">Email<span class="tooltiptext" id="tooltipTextEmail">Ingrese su dirección de correo electrónico</span></label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>
                               <input type="email" class="form-control" placeholder="" aria-label="Last name">
                               </div>
                           </div>                                          
                           <div class="my-4">
-                              <label for="formGroupExampleInput" class="form-label Label_Form">Mensaje</label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>                        
+                              <label for="formGroupExampleInput" class="form-label Label_Form" id="Label_Mensaje">Mensaje<span class="tooltiptext" id="tooltipTextMensaje">Ingrese su mensaje aquí</span></label><i class="fa-solid fa-circle-info ms-1" style="color: #ffffff;"></i>                        
                               <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="" rows="3"></textarea>
                           </div>
-                          <button type="button" class="btn btn-primary Boton_Presentacion mb-5">Enviar</button>
+                          <button type="button" class="btn Boton_Formulario mb-5 " id="botonEnviar">Enviar</button>
                       </div>
-                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column my-4">
+                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column my-5">
                           <div class="mb-3">
                               <i class="fa-solid fa-phone" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://web.whatsapp.com/" target="_blank">+56999887766</a>
                           </div>
@@ -236,10 +260,7 @@
                           </div>
                           <div class="mb-3">
                               <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://www.linkedin.com" target="_blank">tulinkedin</a>
-                          </div>
-                          <div class="mb-3">
-                              <i class="fa-brands fa-github" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://www.github.com" target="_blank">Tu Github</a>
-                          </div>
+                          </div>                          
                           <div class="mb-3">
                               <i class="fa-brands fa-instagram" style="color: #ffffff;"></i><a class="ms-3 Enlace" href="https://www.instagram.com" target="_blank">Tu Instagram</a>
                           </div>
@@ -251,5 +272,6 @@
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/82fa4732e2.js" crossorigin="anonymous"></script>
+    <script src="assets/js/logic.js"></script>
 </body>
 </html>

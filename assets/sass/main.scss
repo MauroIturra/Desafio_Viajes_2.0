@@ -1,5 +1,6 @@
 body{
     background-color: #212529;
+    font-family: "Open Sans", sans-serif;
 }
 .Img_Carrusel{
     height: 500px;
@@ -24,6 +25,10 @@ hr{
 .Img_Card{
     height: 100%;
 }
+.contenedor_precio{
+    background-color: #f7f7f7;
+    height: 3vw;
+}
 .Parrafo_Testimonio{
     color: white;
 }
@@ -35,6 +40,9 @@ hr{
 }
 .Nombre_Testimonio{
     color: white;
+}
+.Boton_Formulario{
+    background-color: white;
 }
 
 
@@ -52,4 +60,29 @@ hr{
 }
 .Label_Form{
     color: white;
+}
+
+
+
+
+.tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posición del tooltip */
+    left: 50%;
+    margin-left: -70px; /* Centrar el tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Label_Form {
+    position: relative;
+    display: inline-block;
 }
