@@ -22,3 +22,25 @@ const labels = document.querySelectorAll('.Label_Form');
     botonEnviar.addEventListener('click', () => {
         alert('Mensaje enviado');
     });
+
+
+    /*Modal*/ 
+    var modal = document.getElementById("miModal");
+
+    var label = document.getElementById("terminosLabel");
+
+    var span = document.getElementsByClassName("close")[0];
+
+    label.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
