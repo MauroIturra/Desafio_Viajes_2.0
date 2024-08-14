@@ -16,7 +16,7 @@ const labels = document.querySelectorAll('.Label_Form');
         });
 
 
-    /*Alerta de mensaje enviado*/
+    /*Alerta*/
     const botonEnviar = document.getElementById('botonEnviar');
 
     botonEnviar.addEventListener('click', () => {
